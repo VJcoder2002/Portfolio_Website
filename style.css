@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: rgb(139, 8, 34);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -194,13 +194,13 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(239, 230, 232);
+    color: rgb(229, 211, 214);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: rgb(154, 30, 30);
+    color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -363,23 +363,27 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
+.skills-content .right .cpp::before{
     width: 60%;
 }
-.skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .php::before{
+.skills-content .right .css::before{
     width: 50%;
 }
+.skills-content .right .js::before{
+    width:  40%;
+}
+.skills-content .right .html::before{
+    width: 60%;
+}
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 40%;
+}
+.skills-content .right .javascript::before{
+    width: 30%;
 }
 
-/* teams section styling */
+
+
 .teams .title::after{
     content: "who with me";
 }
@@ -472,6 +476,10 @@ section .title::after{
     font-size: 25px;
     color: crimson;
 }
+.contact .contact-content .row1 i{
+    font-size: 25px;
+    color: crimson;
+}
 .contact .contact-content .info .head{
     font-weight: 500;
 }
@@ -498,7 +506,7 @@ section .title::after{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(17, 15, 15);
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -666,6 +674,9 @@ footer span a:hover{
     .contact .right form .name,
     .contact .right form .email{
         margin: 0;
+    }
+    .fab fa-linkedin-in{
+        margin-left: 10px;
     }
     .right form .error-box{
        width: 150px;
